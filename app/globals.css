@@ -137,4 +137,7 @@
   .button {
     @apply hover:cursor-pointer;
   }
+  input::placeholder {
+    @apply text-[1rem] text-gray-400;
+  }
 }

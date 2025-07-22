@@ -18,5 +18,18 @@ const Title = ({
     </h1>
   )
 }
+const SubTitle = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode
+  className?: React.ReactNode
+}) => {
+  return (
+    <h1 className={cn('font-semibold text-gray-900 font-sans', className)}>
+      {children}
+    </h1>
+  )
+}
 
-export { Title }
+export { Title, SubTitle }
