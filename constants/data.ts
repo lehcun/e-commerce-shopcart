@@ -24,3 +24,10 @@ export const Catagories = [
   { title: 'Kitchen Appliances', param: '/kitchen-appliances' },
   { title: 'Gadget Accessories', param: '/gadget-accessories' },
 ]
+
+export const productType = [
+  { title: 'Gadget', value: 'gadget' },
+  { title: 'Appliances', value: 'appliances' },
+  { title: 'Refrigerators', value: 'refrigetors' },
+  { title: 'Others', value: 'others' },
+]
